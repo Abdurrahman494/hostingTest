@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Laptop Store</h1>
+    </header>
+
+    <main>
+        <section class="laptops">
+            <div class="laptop-card">
+                <img src="https://m.media-amazon.com/images/I/713dZHEY2YL._SX679_.jpg" alt="Laptop 1">
+                <h2>Laptop Model 1</h2>
+                <p>Price: $999</p>
+                <button>Buy Now</button>
+            </div>
+
+            <div class="laptop-card">
+                <img src="https://m.media-amazon.com/images/I/713dZHEY2YL._SX679_.jpg" alt="Laptop 2">
+                <h2>Laptop Model 2</h2>
+                <p>Price: $799</p>
+                <button>Buy Now</button>
+            </div>
+
+            <!-- Add more laptop cards here with cloud image URLs -->
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Laptop Store. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
+
+
+<style>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    padding: 2rem;
+}
+
+.laptops {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.laptop-card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.laptop-card img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+</style>
